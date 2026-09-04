@@ -1,9 +1,8 @@
 import { useState } from 'react';
 import confetti from 'canvas-confetti';
-import { Star, Trophy, RefreshCcw } from 'lucide-react';
-import { quizData } from '../data/quizData';
+import { Star, Trophy, RefreshCcw, Home } from 'lucide-react';
 
-export default function Quiz() {
+export default function Quiz({ quizData, onGoHome }) {
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [score, setScore] = useState(0);
   const [showScore, setShowScore] = useState(false);
@@ -79,10 +78,16 @@ export default function Quiz() {
           <p style={{ fontSize: '1.5rem', marginTop: '10px' }}>
             Você fez <strong style={{ color: 'var(--primary-color)' }}>{score}</strong> pontos!
           </p>
-          <button className="restart-btn" onClick={restartQuiz}>
-            <RefreshCcw size={20} style={{ display: 'inline', marginRight: '8px', verticalAlign: 'text-bottom' }} />
-            Jogar Novamente
-          </button>
+          <div style={{ display: 'flex', gap: '10px', marginTop: '20px' }}>
+            <button className="restart-btn" onClick={restartQuiz}>
+              <RefreshCcw size={20} style={{ display: 'inline', marginRight: '8px', verticalAlign: 'text-bottom' }} />
+              Jogar Novamente
+            </button>
+            <button className="restart-btn" onClick={onGoHome} style={{ backgroundColor: '#95a5a6' }}>
+              <Home size={20} style={{ display: 'inline', marginRight: '8px', verticalAlign: 'text-bottom' }} />
+              Menu Principal
+            </button>
+          </div>
         </div>
       ) : (
         <>
@@ -125,7 +130,11 @@ export default function Quiz() {
                   disabled={hasAnswered}
                 >
                   <span className="option-letter">{letter})</span>
-                  <span className="option-text">{option.text}</span>
+                  {option.image ? (
+                    <img src={option.image} alt="Opção" style={{ maxHeight: '100px', marginLeft: '10px' }} />
+                  ) : (
+                    <span className="option-text">{option.text}</span>
+                  )}
                 </button>
               );
             })}
