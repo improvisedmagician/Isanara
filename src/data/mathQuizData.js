@@ -239,9 +239,9 @@ export const mathQuizData = [
     image: "/assets/math/image20.png",
     questionPart2: "Qual das figuras geométricas espaciais abaixo lembra a casquinha desse sorvete?",
     options: [
-      { text: "", image: "/assets/math/image21.png", isCorrect: false },
+      { text: "", image: "/assets/math/image21.png", isCorrect: true },
       { text: "", image: "/assets/math/image23.png", isCorrect: false },
-      { text: "", image: "/assets/math/image22.png", isCorrect: true },
+      { text: "", image: "/assets/math/image22.png", isCorrect: false },
       { text: "", image: "/assets/math/image24.png", isCorrect: false }
     ]
   },
