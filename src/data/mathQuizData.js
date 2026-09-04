@@ -336,8 +336,8 @@ export const mathQuizData = [
     options: [
       { text: "Jaime", isCorrect: false },
       { text: "Heitor", isCorrect: false },
-      { text: "Renato", isCorrect: true },
-      { text: "Sofia", isCorrect: false }
+      { text: "Renato", isCorrect: false },
+      { text: "Sofia", isCorrect: true }
     ]
   },
   {
