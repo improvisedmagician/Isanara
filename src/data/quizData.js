@@ -46,7 +46,8 @@ export const quizData = [
   },
   {
     id: 5,
-    question: "Leia a palavra abaixo: CAMPO. A palavra lida tem quantas sílabas?",
+    question: "Leia a palavra abaixo: CAMPO.",
+    questionPart2: "A palavra lida tem quantas sílabas?",
     options: [
       { text: "2", isCorrect: true },
       { text: "3", isCorrect: false },
@@ -68,8 +69,9 @@ export const quizData = [
   },
   {
     id: 7,
-    question: "Leia a frase: O PATO NADA NA LAGOA. Qual a última palavra lida?",
+    question: "Leia a frase: O PATO NADA NA LAGOA.",
     image: "/assets/image5.jpeg",
+    questionPart2: "Qual a última palavra lida?",
     options: [
       { text: "nada", isCorrect: false },
       { text: "pato", isCorrect: false },
@@ -103,7 +105,8 @@ export const quizData = [
   },
   {
     id: 10,
-    question: "Leia o texto: Kaká, o caramujo, foi passear com sua mamãe. Kaká viu a sua amiga, a joaninha Bibi. Quem era Kaká?",
+    question: "Leia o texto: Kaká, o caramujo, foi passear com sua mamãe. Kaká viu a sua amiga, a joaninha Bibi.",
+    questionPart2: "Quem era Kaká?",
     options: [
       { text: "Uma joaninha.", isCorrect: false },
       { text: "Um caramujo.", isCorrect: true },
