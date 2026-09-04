@@ -168,3 +168,28 @@
   .header { font-size: 1rem; flex-direction: column; align-items: center; gap: 10px; }
   .question-image { max-height: 200px; }
 }
+
+.options-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.option-list-btn {
+  justify-content: flex-start;
+  text-align: left;
+}
+
+.option-letter {
+  font-weight: bold;
+  margin-right: 15px;
+  color: var(--primary-color);
+  font-size: 1.2rem;
+}
+
+.option-btn.correct .option-letter,
+.option-btn.incorrect .option-letter {
+  color: inherit;
+}

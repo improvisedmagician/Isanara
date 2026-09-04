@@ -22,8 +22,9 @@ export const quizData = [
   },
   {
     id: 3,
-    question: "Veja as figuras. Marque a alternativa em que está escrito corretamente o nome das figuras observadas.",
+    question: "Veja as figuras.",
     image: "/assets/image2.png",
+    questionPart2: "Marque a alternativa em que está escrito corretamente o nome das figuras observadas.",
     options: [
       { text: "Bola – galo.", isCorrect: false },
       { text: "Bolo – gato.", isCorrect: false },
@@ -33,8 +34,9 @@ export const quizData = [
   },
   {
     id: 4,
-    question: "Observe a imagem e responda. Marque a alternativa com o nome da figura.",
+    question: "Observe a imagem e responda.",
     image: "/assets/image3.jpeg",
+    questionPart2: "Marque a alternativa com o nome da figura.",
     options: [
       { text: "Carro", isCorrect: false },
       { text: "Canela", isCorrect: false },
@@ -54,8 +56,9 @@ export const quizData = [
   },
   {
     id: 6,
-    question: "Observe a cena. Marque a alternativa que mostra o que acontece.",
+    question: "Observe a cena.",
     image: "/assets/image4.png",
+    questionPart2: "Marque a alternativa que mostra o que acontece.",
     options: [
       { text: "As crianças brincam na horta.", isCorrect: false },
       { text: "As crianças brincam de pipa.", isCorrect: false },
@@ -76,8 +79,9 @@ export const quizData = [
   },
   {
     id: 8,
-    question: "Leia o texto da imagem. Esse texto é:",
+    question: "Leia o texto da imagem.",
     image: "/assets/image6.png",
+    questionPart2: "Esse texto é:",
     options: [
       { text: "uma receita.", isCorrect: false },
       { text: "um cartaz.", isCorrect: true },
@@ -87,8 +91,9 @@ export const quizData = [
   },
   {
     id: 9,
-    question: "Observe a imagem para responder às questões. Qual é a finalidade desse texto?",
+    question: "Observe a imagem para responder às questões.",
     image: "/assets/image7.png",
+    questionPart2: "Qual é a finalidade desse texto?",
     options: [
       { text: "Contar uma história divertida.", isCorrect: false },
       { text: "Ensinar uma regra da escola.", isCorrect: false },
@@ -128,8 +133,9 @@ export const quizData = [
   },
   {
     id: 13,
-    question: "Leia a tirinha e responda: Depois de comer o bolo, por que Garfield diz: “O amor é passageiro”?",
-    image: "/assets/image8.png", // Imagem do Garfield
+    question: "Leia a tirinha e responda:",
+    image: "/assets/image8.png",
+    questionPart2: "Depois de comer o bolo, por que Garfield diz: “O amor é passageiro”?",
     options: [
       { text: "Porque ele não gosta de bolo.", isCorrect: false },
       { text: "Porque o bolo acabou e o amor passou.", isCorrect: true },
@@ -149,8 +155,9 @@ export const quizData = [
   },
   {
     id: 15,
-    question: "Leia a tirinha do Bidu. No segundo quadrinho, Bidu demonstra estar:",
-    image: "/assets/image9.jpeg", // Imagem do Bidu
+    question: "Leia a tirinha do Bidu.",
+    image: "/assets/image9.jpeg",
+    questionPart2: "No segundo quadrinho, Bidu demonstra estar:",
     options: [
       { text: "satisfeito.", isCorrect: false },
       { text: "alegre.", isCorrect: false },
@@ -162,9 +169,9 @@ export const quizData = [
     id: 16,
     question: "No último balão, a palavra “ELE” se refere:",
     options: [
-      { text: "ao elefantão.", isCorrect: false },
+      { text: "ao elefantão.", isCorrect: true },
       { text: "à formiguinha.", isCorrect: false },
-      { text: "ao Bidu.", isCorrect: true },
+      { text: "ao Bidu.", isCorrect: false },
       { text: "ao leitor.", isCorrect: false }
     ]
   }

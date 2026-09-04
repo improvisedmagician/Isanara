@@ -103,13 +103,19 @@ export default function Quiz() {
             <img src={question.image} alt="Imagem da questão" className="question-image animate-fade-in" />
           )}
 
-          <div className="options-grid">
+          {question.questionPart2 && (
+            <h2 className="question-text" style={{ marginTop: '0' }}>{question.questionPart2}</h2>
+          )}
+
+          <div className="options-list">
             {question.options.map((option, index) => {
-              let btnClass = "option-btn";
+              let btnClass = "option-btn option-list-btn";
               if (hasAnswered) {
                 if (option.isCorrect) btnClass += " correct";
                 else if (selectedOption === option && !option.isCorrect) btnClass += " incorrect";
               }
+
+              const letter = String.fromCharCode(97 + index);
 
               return (
                 <button
@@ -118,7 +124,8 @@ export default function Quiz() {
                   onClick={() => handleOptionClick(option)}
                   disabled={hasAnswered}
                 >
-                  {option.text}
+                  <span className="option-letter">{letter})</span>
+                  <span className="option-text">{option.text}</span>
                 </button>
               );
             })}
