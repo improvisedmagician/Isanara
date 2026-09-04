@@ -28,9 +28,9 @@ export const mathQuizData = [
     image: "/assets/math/image2.png",
     questionPart2: "A loja vendeu todas as caixas que tinham a menor quantidade. Qual caixa foi vendida?",
     options: [
-      { text: "Caixa de corações", isCorrect: true },
+      { text: "Caixa de corações", isCorrect: false },
       { text: "Caixa de flores", isCorrect: false },
-      { text: "Caixa de bolinhas", isCorrect: false },
+      { text: "Caixa de bolinhas", isCorrect: true },
       { text: "Caixa de estrelas", isCorrect: false }
     ]
   },
