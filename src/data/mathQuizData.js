@@ -264,8 +264,8 @@ export const mathQuizData = [
     questionPart2: "De acordo com essa tabela, qual atividade Bruno faz às quartas-feiras após a escola?",
     options: [
       { text: "Futebol", isCorrect: false },
-      { text: "Corrida", isCorrect: false },
-      { text: "Canto", isCorrect: true },
+      { text: "Corrida", isCorrect: true },
+      { text: "Canto", isCorrect: false },
       { text: "Basquete", isCorrect: false }
     ]
   },
