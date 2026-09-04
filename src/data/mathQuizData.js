@@ -5,9 +5,9 @@ export const mathQuizData = [
     image: "/assets/math/image1.png",
     questionPart2: "Qual dos irmãos faz aniversário primeiro no ano?",
     options: [
-      { text: "Ayla", isCorrect: true },
+      { text: "Ayla", isCorrect: false },
       { text: "Álisson", isCorrect: false },
-      { text: "Ariane", isCorrect: false },
+      { text: "Ariane", isCorrect: true },
       { text: "Abner", isCorrect: false }
     ]
   },
