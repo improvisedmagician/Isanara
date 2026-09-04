@@ -216,8 +216,8 @@ export const mathQuizData = [
     questionPart2: "Que número completa essa sequência?",
     options: [
       { text: "10", isCorrect: false },
-      { text: "15", isCorrect: true },
-      { text: "20", isCorrect: false },
+      { text: "15", isCorrect: false },
+      { text: "20", isCorrect: true },
       { text: "25", isCorrect: false }
     ]
   },
