@@ -310,8 +310,8 @@ export const mathQuizData = [
     image: "/assets/math/image30.png",
     questionPart2: "Essa é a decomposição de qual número?",
     options: [
-      { text: "434", isCorrect: false },
-      { text: "4 304", isCorrect: true },
+      { text: "434", isCorrect: true },
+      { text: "4 304", isCorrect: false },
       { text: "40 304", isCorrect: false },
       { text: "400 304", isCorrect: false }
     ]
