@@ -46,7 +46,7 @@ export const quizData = [
   },
   {
     id: 5,
-    question: "Leia a palavra abaixo: CAMPO.",
+    question: "Leia a palavra abaixo:\nCAMPO.",
     questionPart2: "A palavra lida tem quantas sílabas?",
     options: [
       { text: "2", isCorrect: true },
