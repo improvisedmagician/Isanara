@@ -298,7 +298,7 @@ export const mathQuizData = [
     image: "/assets/math/image28.png",
     questionPart2: "Qual o objeto está em cima da mesa?",
     options: [
-      { text: "Vaso de Flores", isCorrect: true },
+      { text: "Abajur", isCorrect: true },
       { text: "Televisão", isCorrect: false },
       { text: "Relógio", isCorrect: false },
       { text: "Quadro", isCorrect: false }
