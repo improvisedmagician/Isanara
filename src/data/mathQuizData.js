@@ -252,8 +252,8 @@ export const mathQuizData = [
     questionPart2: "Que número é igual a essa decomposição?",
     options: [
       { text: "21", isCorrect: false },
-      { text: "22", isCorrect: true },
-      { text: "23", isCorrect: false },
+      { text: "22", isCorrect: false },
+      { text: "23", isCorrect: true },
       { text: "32", isCorrect: false }
     ]
   },
