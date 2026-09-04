@@ -134,8 +134,8 @@ export const mathQuizData = [
     image: "/assets/math/image9.png",
     questionPart2: "Quantos docinhos sobraram do lanche?",
     options: [
-      { text: "3", isCorrect: false },
-      { text: "6", isCorrect: true },
+      { text: "3", isCorrect: true },
+      { text: "6", isCorrect: false },
       { text: "9", isCorrect: false },
       { text: "12", isCorrect: false }
     ]
@@ -169,10 +169,10 @@ export const mathQuizData = [
     image: "/assets/math/image11.png",
     questionPart2: "Marque a opção que mostra o valor das moedas de Lúcio em cédula.",
     options: [
-      { text: "", image: "/assets/math/image12.png", isCorrect: true },
+      { text: "", image: "/assets/math/image12.png", isCorrect: false },
       { text: "", image: "/assets/math/image13.png", isCorrect: false },
       { text: "", image: "/assets/math/image14.png", isCorrect: false },
-      { text: "", image: "/assets/math/image15.png", isCorrect: false }
+      { text: "", image: "/assets/math/image15.png", isCorrect: true }
     ]
   },
   {
@@ -192,9 +192,9 @@ export const mathQuizData = [
     questionPart2: "Quantos brinquedos Miguel possui ao todo?",
     options: [
       { text: "10", isCorrect: false },
-      { text: "9", isCorrect: true },
+      { text: "9", isCorrect: false },
       { text: "8", isCorrect: false },
-      { text: "7", isCorrect: false }
+      { text: "7", isCorrect: true }
     ]
   },
   {
