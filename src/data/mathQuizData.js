@@ -52,9 +52,9 @@ export const mathQuizData = [
     questionPart2: "Quem está à esquerda de Hugo?",
     options: [
       { text: "Cecília", isCorrect: false },
-      { text: "Eloá", isCorrect: true },
+      { text: "Eloá", isCorrect: false },
       { text: "Iana", isCorrect: false },
-      { text: "Ivan", isCorrect: false }
+      { text: "Ivan", isCorrect: true }
     ]
   },
   {
@@ -87,9 +87,9 @@ export const mathQuizData = [
     image: "/assets/math/image6.png",
     questionPart2: "Em 2026, em qual dia da semana será o aniversário de Paula?",
     options: [
-      { text: "Terça-feira", isCorrect: false },
+      { text: "Terça-feira", isCorrect: true },
       { text: "Quarta-feira", isCorrect: false },
-      { text: "Quinta-feira", isCorrect: true },
+      { text: "Quinta-feira", isCorrect: false },
       { text: "Sexta-feira", isCorrect: false }
     ]
   },
@@ -100,9 +100,9 @@ export const mathQuizData = [
     questionPart2: "De acordo com o gráfico, quantas galinhas existem nessa fazenda?",
     options: [
       { text: "10", isCorrect: false },
-      { text: "15", isCorrect: true },
+      { text: "15", isCorrect: false },
       { text: "20", isCorrect: false },
-      { text: "25", isCorrect: false }
+      { text: "25", isCorrect: true }
     ]
   },
   {
@@ -123,8 +123,8 @@ export const mathQuizData = [
     questionPart2: "Que número deve estar no lugar do coraçãozinho?",
     options: [
       { text: "10", isCorrect: false },
-      { text: "20", isCorrect: true },
-      { text: "30", isCorrect: false },
+      { text: "20", isCorrect: false },
+      { text: "30", isCorrect: true },
       { text: "40", isCorrect: false }
     ]
   },
