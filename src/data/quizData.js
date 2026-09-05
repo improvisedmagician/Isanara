@@ -165,8 +165,8 @@ export const quizData = [
     options: [
       { text: "satisfeito.", isCorrect: false },
       { text: "alegre.", isCorrect: false },
-      { text: "preocupado.", isCorrect: false },
-      { text: "indignado.", isCorrect: true }
+      { text: "preocupado.", isCorrect: true },
+      { text: "indignado.", isCorrect: false }
     ]
   },
   {
