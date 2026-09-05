@@ -126,6 +126,10 @@ export default function Quiz({ quizData, onGoHome }) {
             <h2 className="question-text" style={{ marginTop: '0' }}>{question.questionPart2}</h2>
           )}
 
+          {question.image2 && (
+            <img src={question.image2} alt="Imagem da questão" className="question-image animate-fade-in" />
+          )}
+
           <div className="options-list">
             {question.options.map((option, index) => {
               let btnClass = "option-btn option-list-btn";

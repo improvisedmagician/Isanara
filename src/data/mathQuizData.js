@@ -307,6 +307,7 @@ export const mathQuizData = [
     question: "Observe abaixo os móveis da sala de Luciana.",
     image: "/assets/math/image28.png",
     questionPart2: "Qual o objeto está em cima da mesa?",
+    image2: "/assets/math/image29.png",
     options: [
       { text: "Abajur", isCorrect: true },
       { text: "Televisão", isCorrect: false },
