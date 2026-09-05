@@ -140,9 +140,9 @@ export const mathQuizData = [
     questionPart2: "Quantos docinhos sobraram do lanche?",
     options: [
       { text: "3", isCorrect: false },
-      { text: "6", isCorrect: false },
+      { text: "6", isCorrect: true },
       { text: "9", isCorrect: false },
-      { text: "12", isCorrect: true }
+      { text: "12", isCorrect: false }
     ]
   },
   {
