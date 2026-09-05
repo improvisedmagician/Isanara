@@ -135,19 +135,14 @@ export const mathQuizData = [
       "/assets/math/image9.png",
       "/assets/math/image9.png",
       "/assets/math/image9.png",
-      "/assets/math/image9.png",
-      "/assets/math/image9.png",
-      "/assets/math/image9.png",
-      "/assets/math/image9.png",
-      "/assets/math/image9.png",
       "/assets/math/image9.png"
     ],
     questionPart2: "Quantos docinhos sobraram do lanche?",
     options: [
       { text: "3", isCorrect: false },
       { text: "6", isCorrect: false },
-      { text: "9", isCorrect: true },
-      { text: "12", isCorrect: false }
+      { text: "9", isCorrect: false },
+      { text: "12", isCorrect: true }
     ]
   },
   {
