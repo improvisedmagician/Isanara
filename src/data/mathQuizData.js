@@ -84,7 +84,7 @@ export const mathQuizData = [
   {
     id: 8,
     question: "O aniversário de Paula é no dia 10 de Dezembro. Considere o calendário abaixo e responda.",
-    image: "/assets/math/image6_dez.png",
+    image: "/assets/math/image6.png",
     questionPart2: "Em 2026, em qual dia da semana será o aniversário de Paula?",
     options: [
       { text: "Terça-feira", isCorrect: true },
