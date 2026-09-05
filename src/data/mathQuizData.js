@@ -302,12 +302,11 @@ export const mathQuizData = [
     question: "Observe abaixo os móveis da sala de Luciana.",
     image: "/assets/math/image28.png",
     questionPart2: "Qual o objeto está em cima da mesa?",
-    image2: "/assets/math/image29.png",
     options: [
-      { text: "Abajur", isCorrect: true },
-      { text: "Televisão", isCorrect: false },
-      { text: "Relógio", isCorrect: false },
-      { text: "Quadro", isCorrect: false }
+      { text: "", image: "/assets/math/image29_a.png", isCorrect: true },
+      { text: "", image: "/assets/math/image29_b.png", isCorrect: false },
+      { text: "", image: "/assets/math/image29_c.png", isCorrect: false },
+      { text: "", image: "/assets/math/image29_d.png", isCorrect: false }
     ]
   },
   {
