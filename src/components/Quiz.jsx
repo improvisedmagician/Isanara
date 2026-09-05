@@ -108,6 +108,14 @@ export default function Quiz({ quizData, onGoHome }) {
             <img src={question.image} alt="Imagem da questão" className="question-image animate-fade-in" />
           )}
 
+          {question.images && (
+            <div className="images-container animate-fade-in" style={{ display: 'flex', justifyContent: 'center', gap: '10px', flexWrap: 'wrap', marginBottom: '20px' }}>
+              {question.images.map((imgSrc, idx) => (
+                <img key={idx} src={imgSrc} alt="Imagem da questão" className="question-image" style={{ marginBottom: 0, maxHeight: '150px' }} />
+              ))}
+            </div>
+          )}
+
           {question.textQuote && (
             <div className="text-quote animate-fade-in">
               {question.textQuote}
