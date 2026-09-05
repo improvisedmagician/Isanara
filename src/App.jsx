@@ -6,7 +6,9 @@ import { mathQuizData } from './data/mathQuizData';
 import './App.css';
 
 function App() {
-  const [activeQuiz, setActiveQuiz] = useState(null); // 'portugues' | 'matematica' | null
+  const queryParams = new URLSearchParams(window.location.search);
+  const initialSubject = queryParams.get('subject') || null;
+  const [activeQuiz, setActiveQuiz] = useState(initialSubject); // 'portugues' | 'matematica' | null
 
   const getActiveData = () => {
     if (activeQuiz === 'portugues') return portuguesData;

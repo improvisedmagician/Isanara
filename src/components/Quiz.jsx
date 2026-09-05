@@ -3,7 +3,12 @@ import confetti from 'canvas-confetti';
 import { Star, Trophy, RefreshCcw, Home } from 'lucide-react';
 
 export default function Quiz({ quizData, onGoHome }) {
-  const [currentQuestion, setCurrentQuestion] = useState(0);
+  const queryParams = new URLSearchParams(window.location.search);
+  const initialQ = parseInt(queryParams.get('q')) || 1;
+  
+  const [currentQuestion, setCurrentQuestion] = useState(
+    initialQ > 0 && initialQ <= quizData.length ? initialQ - 1 : 0
+  );
   const [score, setScore] = useState(0);
   const [showScore, setShowScore] = useState(false);
   const [selectedOption, setSelectedOption] = useState(null);
