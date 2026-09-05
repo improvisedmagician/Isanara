@@ -108,6 +108,12 @@ export default function Quiz({ quizData, onGoHome }) {
             <img src={question.image} alt="Imagem da questão" className="question-image animate-fade-in" />
           )}
 
+          {question.textQuote && (
+            <div className="text-quote animate-fade-in">
+              {question.textQuote}
+            </div>
+          )}
+
           {question.questionPart2 && (
             <h2 className="question-text" style={{ marginTop: '0' }}>{question.questionPart2}</h2>
           )}

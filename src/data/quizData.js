@@ -105,7 +105,8 @@ export const quizData = [
   },
   {
     id: 10,
-    question: "Leia o texto: Kaká, o caramujo, foi passear com sua mamãe. Kaká viu a sua amiga, a joaninha Bibi.",
+    question: "Leia o texto:",
+    textQuote: "Kaká, o caramujo, foi passear com sua mamãe. Kaká viu a sua amiga, a joaninha Bibi.",
     questionPart2: "Quem era Kaká?",
     options: [
       { text: "Uma joaninha.", isCorrect: false },
