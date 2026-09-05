@@ -133,14 +133,16 @@ export const mathQuizData = [
     question: "Bruno preparou docinhos para o lanche. Após comer a metade deles, sobrou alguns na bandeja, veja na imagem abaixo.",
     images: [
       "/assets/math/image9.png",
+      "/assets/math/image9.png",
+      "/assets/math/image9.png",
       "/assets/math/image9.png"
     ],
     questionPart2: "Quantos docinhos sobraram do lanche?",
     options: [
       { text: "3", isCorrect: false },
-      { text: "6", isCorrect: true },
+      { text: "6", isCorrect: false },
       { text: "9", isCorrect: false },
-      { text: "12", isCorrect: false }
+      { text: "12", isCorrect: true }
     ]
   },
   {
