@@ -303,9 +303,9 @@ export const mathQuizData = [
     image: "/assets/math/image28.png",
     questionPart2: "Qual o objeto está em cima da mesa?",
     options: [
-      { text: "", image: "/assets/math/image29_a.png", isCorrect: true },
+      { text: "", image: "/assets/math/image29_a.png", isCorrect: false },
       { text: "", image: "/assets/math/image29_b.png", isCorrect: false },
-      { text: "", image: "/assets/math/image29_c.png", isCorrect: false },
+      { text: "", image: "/assets/math/image29_c.png", isCorrect: true },
       { text: "", image: "/assets/math/image29_d.png", isCorrect: false }
     ]
   },
